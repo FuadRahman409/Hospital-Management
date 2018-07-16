@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: lightblue url("log.jpg") no-repeat fixed center;
+
+}
+.box
+{
+    width: 300px;
+    height: 300px;
+    padding: 150px 60px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background:rgb(0,0,0,0.4);
+    text-align: center;
+    color: white;
+}
+.box h1
+{
+  color:#F5DEB3;
+  text-transform: unset;
+  font-weight: 500;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+  border: 0;
+  background: #191919;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #FFA500;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type ="password"]:focus
+{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.box input[type="submit"]
+{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #FF6347;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover
+{
+  background: #FF6347;
+  color: #000000;
+  font-size: 20px;
+}
+.user
+{
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    position: absolute;
+    top:calc(-40px/2);
+    left: calc(41% - 50px);
+    
+   
+}
+.tag
+{
+    position: absolute;
+    top: 500px;
+    right: 110px;
+    font-size: 18px;
+    text-decoration-line: none;
+    color: #F0E68C;
+}
+h4
+{
+ display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+}

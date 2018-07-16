@@ -1,0 +1,4 @@
+Fuad|1234567|pharmacist
+Fuad1|12345678|accountant
+Fuad2|1234|pharmacist
+Fuad3|123|accountant
